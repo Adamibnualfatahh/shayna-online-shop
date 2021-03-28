@@ -1,4 +1,4 @@
-# shayna
+# adam
 
 ## Project setup
 ```
