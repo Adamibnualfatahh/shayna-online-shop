@@ -1,10 +1,11 @@
 <template>
     <!-- Women Banner Section Begin -->
     <section class="women-banner spad">
+     <carousel>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 mt-5">
-                    <div class="product-slider" :items="3" :nav="false" :autoplay="false">
+                    <div class="product-slider" :items="3" :nav="false" :autoplay="true">
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/mickey1.jpg" alt="" />
@@ -93,19 +94,17 @@
                 </div>
             </div>
         </div>
+     </carousel>
     </section>
     <!-- Women Banner Section End -->
 </template>
 
 <script>
-
 import carousel from 'vue-owl-carousel';
 
-
-
 export default {
-  name: 'WomanShayna',
-  components: {
+    name: 'WomanShayna',
+     components: {
     carousel
   }
 }
@@ -113,6 +112,7 @@ export default {
 
 <style scoped>
 .product-item {
-    margin-right : 25px;
+    nmargin-right: 25px;
 }
+
 </style>

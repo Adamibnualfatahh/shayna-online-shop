@@ -13,13 +13,12 @@ import HeaderShayna from '@/components/HeaderShayna.vue';
 import HeroShayna from '@/components/HeroShayna.vue';
 import WomanShayna from '@/components/WomanShayna.vue';
 
-
 export default {
   name: 'Home',
   components: {
     HeaderShayna,
     HeroShayna,
     WomanShayna
-  },
+  }
 }
 </script>
