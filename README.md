@@ -1,4 +1,4 @@
-#InProgress malas
+#InProgress
 
 # Shayna Online Store
 
